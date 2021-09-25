@@ -22,6 +22,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Robert Walker](https://www.walker-designs.com)
+- Website - [https://www.walker-designs.com](https://www.walker-designs.com)
 - Frontend Mentor - [@robertWalker68501](https://www.frontendmentor.io/profile/robertWalker68501)
 - Twitter - [@RobertW15135868](https://www.twitter.com/@RobertW15135868)
