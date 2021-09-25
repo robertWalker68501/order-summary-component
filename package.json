@@ -1,0 +1,22 @@
+{
+  "name": "order-summary-component",
+  "version": "1.0.0",
+  "description": "This is a solution to the Order summary card challenge on Frontend Mentor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertWalker68501/order-summary-component.git"
+  },
+  "author": "Robert Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertWalker68501/order-summary-component/issues"
+  },
+  "homepage": "https://github.com/robertWalker68501/order-summary-component#readme",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  }
+}
