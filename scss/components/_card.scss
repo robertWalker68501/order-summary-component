@@ -1,0 +1,90 @@
+@use "../abstracts" as *;
+@use "buttons" as *;
+
+.card {
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 40px 32px 0 rgba($desaturated-blue,0.2);
+  margin: auto;
+  overflow: hidden;
+  width: 92%;
+
+  &__header {
+    background-image: url("../images/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 16rem;
+  }
+
+  &__body {
+    padding: 2rem 2rem 3.5rem 2rem;
+    text-align: center;
+
+    &-title {
+      color: $dark-blue;
+      font-size: 2.2rem;
+      font-weight: 900;
+      margin-top: 1.3rem;
+    }
+
+    &-text {
+      color: $desaturated-blue;
+      font-size: 1.5rem;
+      line-height: 1.5;
+      margin: 0 auto;
+      padding-bottom: 1rem;
+      width: 85%;
+    }
+
+    &-order-summary {
+      color: $desaturated-blue;
+      background: $very-pale-blue;
+      border-radius: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-top: 1rem;
+      padding: 2rem 1.5rem;
+    }
+
+    &-dark-text {
+      color: $dark-blue;
+      display: inline-block;
+      font-size: 1.5rem;
+      font-weight: 900;
+      margin-bottom: .4rem;
+      text-align: center;
+    }
+
+    &-music-icon {
+      background: $pale-blue;
+      border-radius: 100%;
+      display: flex;
+      font-size: 1.8rem;
+      height: 2rem;
+      width: 2rem;
+      padding: 1.4rem;
+    }
+
+    &-edit-order a {
+      font-size: 1.3rem;
+    }
+  }
+
+  .card__footer {
+    margin-top: 2.3rem;
+    width: 100%;
+
+    & .order-cancel {
+      color: $desaturated-blue;
+      display: block;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-top: 2.2rem;
+      text-decoration: none;
+    }
+  }
+}
