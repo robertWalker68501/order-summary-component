@@ -7,6 +7,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   
@@ -24,6 +25,11 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/desktop-small.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Github](https://robertwalker68501.github.io/order-summary-component/)
 
 ## My process
 

@@ -2,48 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-
   <title>Frontend Mentor | Order summary card</title>
-
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!-- Begin Card -->
-  <div class="card">
-    <div class="card__header"></div>
-    <div class="card__body">
-      <h3 class="card__body-title">Order Summary</h3>
-      <p class="card__body-text">
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-      <div class="card__body-order-summary">
-        <div class="card__body-music-icon">
-          <i class="fas fa-music"></i>
+  <main role="main">
+    <div class="card">
+      <div class="card__header"></div>
+      <div class="card__body">
+        <h3 class="card__body-title">Order Summary</h3>
+        <p class="card__body-text">
+          You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
+        <div class="card__body-order-summary">
+          <div class="card__body-music-icon">
+            <i class="fas fa-music"></i>
+          </div>
+          <div class="card__body-purchase-info">
+            <span class="card__body-dark-text">Annual Plan</span><br />
+            $59.99/year
+          </div>
+          <div class="card__body-edit-order">
+            <a href="#">Change</a>
+          </div>
         </div>
-        <div class="card__body-purchase-info">
-          <span class="card__body-dark-text">Annual Plan</span><br />
-          $59.99/year
+        <div class="card__footer">
+          <a href="#" class="btn btn-primary">Proceed to Payment</a>
+          <a href="#" class="order-cancel">Cancel Order</a>
         </div>
-        <div class="card__body-edit-order">
-          <a href="#">Change</a>
-        </div>
-      </div>
-      <div class="card__footer">
-        <a href="#" class="btn btn-primary">Proceed to Payment</a>
-        <a href="#" class="order-cancel">Cancel Order</a>
       </div>
     </div>
-  </div>
+  </main>
   <!-- End Card -->
 
-  <div class="attribution">
+  <div class="attribution" role="group">
     <div>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</div>
     <div>Coded by <a href="#">Robert Walker</a>.</div>
   </div>
