@@ -12,7 +12,12 @@ body {
   box-sizing: border-box;
   font-family: $default-font;
   font-size: $default-font-size;
+  font-weight: 500;
   padding: 6rem 0;
+
+  @media screen and (min-width: 1440px) {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
 }
 
 .attribution {
