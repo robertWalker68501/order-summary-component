@@ -6,6 +6,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
   
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -18,7 +21,19 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-**Note: More to come**
+### Screenshot
+
+![](./images/desktop-small.png)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- SCSS
+- Flexbox
+- Font Awesome
+- Mobile-first workflow
 
 ## Author
 
